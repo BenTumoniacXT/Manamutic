@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="C:\Program Files (x86)\InstallShield\2021\Support\0409\buildreport.xsl"?>
+<BuildReport ProductName="Manamutic Server" ProductVersion="0.02.1000" Built="6-14-2022 02-37-10 PM" Config="Product Configuration 1" Media="Release 1" Uncompressed="0.00 MB">
+  <Features>
+    <Feature Title="##ID_STRING2##">Core</Feature>
+  </Features>
+  <Components>
+    <Component x64="32">AllOtherFiles</Component>
+    <Component x64="32">ServerDashboard.exe</Component>
+  </Components>
+  <Prerequisites>
+    <Prerequisite>Microsoft .NET Framework 4.8 Web</Prerequisite>
+  </Prerequisites>
+  <MergeModules />
+  <DynamicLinks />
+  <Files>
+    <File Destination="{INSTALLDIR} [ProgramFilesFolder]TumoniacXT Production\Manamutic\Server" Component="ServerDashboard.exe" Modified="06/14/2022 1:34:58 PM" Size="1986048" Version="1.0.0.0">ServerDashboard.exe</File>
+    <File Destination="{INSTALLDIR} [ProgramFilesFolder]TumoniacXT Production\Manamutic\Server" Component="ServerDashboard.exe" Modified="05/20/2022 1:15:09 AM" Size="161" Version="">ServerDashboard.exe.config</File>
+    <File Destination="{INSTALLDIR} [ProgramFilesFolder]TumoniacXT Production\Manamutic\Server" Component="ServerDashboard.exe" Modified="06/13/2022 6:22:08 PM" Size="28" Version="">setting.cfg</File>
+  </Files>
+</BuildReport>

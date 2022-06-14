@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8465C834-4704-436E-BA5D-E4160E69A556}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ServerDashboard</RootNamespace>
+    <AssemblyName>ServerDashboard</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.3.2, Culture=neutral, PublicKeyToken=4015e4865bda28a4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.3.2\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActionTake.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActionTake.Designer.cs">
+      <DependentUpon>ActionTake.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppSetting.Designer.cs">
+      <DependentUpon>AppSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AskInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AskInfo.Designer.cs">
+      <DependentUpon>AskInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CentralData.cs" />
+    <Compile Include="Client.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Client.Designer.cs">
+      <DependentUpon>Client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientChat.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ClientChat.Designer.cs">
+      <DependentUpon>ClientChat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientCore.cs" />
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NotificationAsk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NotificationAsk.Designer.cs">
+      <DependentUpon>NotificationAsk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PasswordAsk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PasswordAsk.Designer.cs">
+      <DependentUpon>PasswordAsk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PCInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PCInfo.Designer.cs">
+      <DependentUpon>PCInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PCSpecs.cs" />
+    <Compile Include="Performance.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Performance.Designer.cs">
+      <DependentUpon>Performance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PowerAction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PowerAction.Designer.cs">
+      <DependentUpon>PowerAction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Screenshot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screenshot.Designer.cs">
+      <DependentUpon>Screenshot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemSpecs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SystemSpecs.Designer.cs">
+      <DependentUpon>SystemSpecs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WaitingSignal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaitingSignal.Designer.cs">
+      <DependentUpon>WaitingSignal.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActionTake.resx">
+      <DependentUpon>ActionTake.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppSetting.resx">
+      <DependentUpon>AppSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AskInfo.resx">
+      <DependentUpon>AskInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client.resx">
+      <DependentUpon>Client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientChat.resx">
+      <DependentUpon>ClientChat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotificationAsk.resx">
+      <DependentUpon>NotificationAsk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PasswordAsk.resx">
+      <DependentUpon>PasswordAsk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PCInfo.resx">
+      <DependentUpon>PCInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Performance.resx">
+      <DependentUpon>Performance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PowerAction.resx">
+      <DependentUpon>PowerAction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Screenshot.resx">
+      <DependentUpon>Screenshot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemSpecs.resx">
+      <DependentUpon>SystemSpecs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaitingSignal.resx">
+      <DependentUpon>WaitingSignal.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FullLogo%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Client%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FullLogo21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn3%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn2%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn1%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn1%404x1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn3%404x1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn2%404x1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn1%404x2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FullLogo%404x2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo3 - Black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background%404x1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background%404x2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background%404x3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stop%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\About%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Setting%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Setting%404x1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\About%404x1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background%404x4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background%404x21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Unlock%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lock%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

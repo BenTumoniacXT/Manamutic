@@ -1,0 +1,13 @@
+D:\Laboratory\ITLab\Manamutic\Client\bin\Release\Client.exe.config
+D:\Laboratory\ITLab\Manamutic\Client\bin\Release\Client.exe
+D:\Laboratory\ITLab\Manamutic\Client\bin\Release\Client.pdb
+D:\Laboratory\ITLab\Manamutic\Client\obj\Release\Client.csproj.AssemblyReference.cache
+D:\Laboratory\ITLab\Manamutic\Client\obj\Release\Client.csproj.SuggestedBindingRedirects.cache
+D:\Laboratory\ITLab\Manamutic\Client\obj\Release\Client.Login.resources
+D:\Laboratory\ITLab\Manamutic\Client\obj\Release\Client.Main.resources
+D:\Laboratory\ITLab\Manamutic\Client\obj\Release\Client.Properties.Resources.resources
+D:\Laboratory\ITLab\Manamutic\Client\obj\Release\Client.csproj.GenerateResource.cache
+D:\Laboratory\ITLab\Manamutic\Client\obj\Release\Client.csproj.CoreCompileInputs.cache
+D:\Laboratory\ITLab\Manamutic\Client\obj\Release\Client.exe
+D:\Laboratory\ITLab\Manamutic\Client\obj\Release\Client.pdb
+D:\Laboratory\ITLab\Manamutic\Client\obj\Release\Client.PCInformation.resources

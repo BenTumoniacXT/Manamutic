@@ -1,0 +1,13 @@
+F:\ITLabs\Manamutic\ServerDashboard\bin\Debug\ServerDashboard.exe.config
+F:\ITLabs\Manamutic\ServerDashboard\bin\Debug\ServerDashboard.exe
+F:\ITLabs\Manamutic\ServerDashboard\bin\Debug\ServerDashboard.pdb
+F:\ITLabs\Manamutic\ServerDashboard\bin\Debug\Guna.UI2.dll
+F:\ITLabs\Manamutic\ServerDashboard\obj\Debug\ServerDashboard.csproj.AssemblyReference.cache
+F:\ITLabs\Manamutic\ServerDashboard\obj\Debug\ServerDashboard.csproj.SuggestedBindingRedirects.cache
+F:\ITLabs\Manamutic\ServerDashboard\obj\Debug\ServerDashboard.Form1.resources
+F:\ITLabs\Manamutic\ServerDashboard\obj\Debug\ServerDashboard.Properties.Resources.resources
+F:\ITLabs\Manamutic\ServerDashboard\obj\Debug\ServerDashboard.csproj.GenerateResource.cache
+F:\ITLabs\Manamutic\ServerDashboard\obj\Debug\ServerDashboard.csproj.CoreCompileInputs.cache
+F:\ITLabs\Manamutic\ServerDashboard\obj\Debug\ServerDashboard.csproj.CopyComplete
+F:\ITLabs\Manamutic\ServerDashboard\obj\Debug\ServerDashboard.exe
+F:\ITLabs\Manamutic\ServerDashboard\obj\Debug\ServerDashboard.pdb
