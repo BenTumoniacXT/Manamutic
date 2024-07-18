@@ -2,7 +2,7 @@
 
 <h3>Updated version: 0.2.1 (Beta 2 - Update 1) - June 2022</h3>
 
-<h3 style="color:orange"><i>Important Notes: This project in under construction for a major upgrade - update cooming soon</i></h3>
+<h3 style="color:orange"><i>Important Notes: This project in under construction for a major upgrade - update coming soon</i></h3>
 
 Manamutic is a Computer Network Administration Programs Suite that enable you the ability to manage a computer network system, part of CS511.M21 - Programming with C# Final Project. This programs allow you to: 
 
