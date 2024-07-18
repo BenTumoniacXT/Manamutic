@@ -1,14 +1,30 @@
-# Phần mềm quản lý phòng máy Manamutic - CS511.M21
+# Manamutic - A Computer Network Administration Programs Suite
 
-Đây là đồ án môn học Lập trình C# - CS511.M21, bộ phần mêm quản lý phòng máy Manamutic. Được viết bởi Lê Đoàn Phúc Minh
+<h3>Updated version: 0.2.1 (Beta 2 - Update 1) - June 2022</h3>
 
-Giảng viên hướng dẫn: Nguyễn Bích Vân - Khoa Khoa học Máy tính
+<h3 style="color:orange"><i>Important Notes: This project in under construction for a major upgrade - update cooming soon</i></h3>
 
-- Thư mục Project: Sources
-- Thư mục phần mềm: Programs
-- Thư mục bộ cài: Setup
-- Hướng dẫn cài đặt và sử dụng: HuongDanSuDung.pdf 
+Manamutic is a Computer Network Administration Programs Suite that enable you the ability to manage a computer network system, part of CS511.M21 - Programming with C# Final Project. This programs allow you to: 
 
-Phiên bản hiện tại: v0.2.1 - Public Beta 2
+- Notify you if computer is on or off 
+- Communicating with client through chat 
+- Send automation commands to many computer at once, including Shutdown and Restart computer
+- See client computer specs and performance usage (can be manually turned off)
+- Check for latest updates, security patchs through Windows Updates (if Internet Connection available)
 
-Chương trình được viết trên C#, bộ cài viết bằng InstallShield
+<center><img src="SampleImages\Dashboard.png" alt="Dashboard Interface"/></center>
+<center><b>The user interface of Server Dashboard</b></center>
+
+<p></p>
+
+<center><img src="SampleImages\ClientInfo.png" alt="Client Info Interface"/></center>
+<center><b>The user interface of Client Info on Server App</b></center>
+
+<p></p>
+
+<center><img src="SampleImages\Client.png" alt="Client Interface"/></center>
+<center><b>The user interface of Client App</b></center>
+
+<p></p>
+
+Detailed guide of this program is available in <i>UserGuide.pdf</i>, although it is only in Vietnamese apparently.
