@@ -12,15 +12,20 @@ Manamutic is a Computer Network Administration Programs Suite that enable you th
 - See client computer specs and performance usage (can be manually turned off)
 - Check for latest updates, security patchs through Windows Updates (if Internet Connection available)
 
-<b align="center"><img src="SampleImages\Dashboard.png" alt="Dashboard Interface"/>The user interface of Server Dashboard</b>
+<p></p>
+
+<div align="center"><img src="SampleImages\Dashboard.png" alt="Dashboard Interface"/></div>
+<div align="center"><b>The user interface of Server Dashboard</b></div>
 
 <p></p>
 
-<b align="center"><img src="SampleImages\ClientInfo.png" alt="Client Info Interface"/>The user interface of Client Info on Server App</b>
+<div align="center"><img src="SampleImages\ClientInfo.png" alt="Client Info Interface"/></div>
+<div align="center"><b>The user interface of Client Info on Server App</b></div>
 
 <p></p>
 
-<b align="center"><img src="SampleImages\Client.png" alt="Client Interface"/>The user interface of Client App</b>
+<div align="center"><img src="SampleImages\Client.png" alt="Client Interface"/></div>
+<div align="center"><b>The user interface of Client App</b></div>
 
 <p></p>
 
